@@ -13,7 +13,7 @@ There are two folders in the above dataset -
 
 - **NumtaDB_with_aug** : It contains some ***training*** and ***testing*** folders ans some ***csv*** files containing ***labels*** for each image. But the **csv** files are only available for ***training*** folders. 
 <br/>
-  
+
 ```training-a```, ```training-b```, ```training-c``` is combined for training purpose and ```training-d``` is used for testing purpose. ```training-e``` is omitted as it contains unusual images.
 
 - **Toy Dataset** : It contains one dimensional array representing digits. The purpose of this dataset is to verify whether the backpropagation is working properly or not.
@@ -92,11 +92,11 @@ After the above process, ```training-a_labels.npy```, ```training-b_labels.npy``
 <br/>
 
 **```LeNet```** model is used to classify the digits. 
-<br/>
+<br/><br/>
 
-<p>
+<p align="center">
    <img src="./LeNet.jpg" 
-        width="400" height="250"/>
+        width="800" height="200"/>
 </p>
 
 <br/>
@@ -184,11 +184,11 @@ python3 train.py
 <br/>
 
 You will get a ```confusion matrix``` like this:
-<br/>
+<br/><br/>
 
-<p>
+<p align="center">
    <img src="./confusion_matrix_full.png" 
-        width="400" height="250"/>
+        width="300" height="250"/>
 </p>
 
 
